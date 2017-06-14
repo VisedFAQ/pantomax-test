@@ -1,0 +1,43 @@
+.pros {
+    min-height: 580px;
+
+    background: url(../img/pros-bg.png) bottom center no-repeat;
+    background-position: 30% 130px;
+    padding-bottom: 80px;
+    .pros__heading {
+        padding-bottom: 30px;
+    }
+    .pros-blocks {
+        width: 65%;
+        padding-left: 35%;
+        .pros-blocks__single {
+            display: inline-block;
+
+            width: 30%;
+            padding: 0 10px;
+            margin-bottom: 20px;
+
+            text-align: center;
+            vertical-align: top;
+            .pros-blocks__img {
+                width: 100%;
+            }
+            .pros-blocks__desc {
+                width: 100%;
+                height: 80px;
+                margin-top: -3px;
+
+                color: #000;
+                border-bottom-right-radius: 5px;
+                border-bottom-left-radius: 5px;
+                background: #fff;
+                span {
+                    padding: 20px 5px;
+                    font-size: 16px;
+                    font-weight: 700;
+                    display: inline-block;
+                }
+            }
+        }
+    }
+}

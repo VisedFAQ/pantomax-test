@@ -1,0 +1,115 @@
+doctype html
+html
+    head(lang="ru")
+        include base/meta.pug
+        include base/styles.pug
+        title Pantomax
+    body
+        .container
+            header
+                .wrap
+                    .header-top
+                        img.header-top__logo(src="img/logo.png" alt="Pantomax")
+                        span.header-top__info
+                            i.header-top__leaf.sprite-icon
+                            <strong>100%</strong> натурально
+                        span.header-top__info
+                            i.header-top__like.sprite-icon
+                            <strong>100%</strong> эффективно
+                    h1.header__heading Сколько раз за ночь ты можешь?
+                    .row
+                        .header-features
+                            h2.header-features__heading Пантомакс – каменный стояк<br> для неприличных рекордов
+                            ul.header-features__list
+                                li.header-features__item Мощная эрекция и потенция
+                                li.header-features__item Занимайся сексом сколько хочешь
+                                li.header-features__item Получай космические оргазмы
+                                li.header-features__item Гарантированный стояк до 3-х часов
+                            img.header-features__img(src="img/product.png" alt="Pantomax")
+                        .header-discount
+                            img.header-discount__img(src="img/-50.png" alt="-50%")
+                            p.header-discount__desc Ваша потенция вернется через 21 день применения! Проверьте сами
+                        .header-right
+                            .header-count 
+                                p.header-count__num 0
+                                p.header-count__num 1
+                                p.header-count__num 0
+                            span.header-count__text *Всего упаковок по акции
+                            form.form
+                                p.form__price-old 
+                                    span Полная цена<br>
+                                    strong.crossed 1980
+                                    strong.form__value руб.
+                                p.form__price-new
+                                    span Цена со скидкой<br>
+                                    strong 990
+                                    strong.form__value руб.
+                                input.form__input.form__name(type="text" name="name" placeholder="Введите ваше имя" required)
+                                input.form__input.form__tel(type="text" name="phone" placeholder="Введите номер телефона" required)
+                                button.form__submit(type="submit") Заказать сейчас
+                                p.form__secure 
+                                    span Ваши данные под защитой SecureTECH
+            .question
+                .wrap
+                    h1.question__heading.heading
+                        | Проблема 
+                        span.highlite ума 
+                        span.no-bold или 
+                        span.highlite тела
+                        | ?
+                    p.question__desc Ответьте всего на 2 вопроса и узнайте свой тип импотенции
+                    .question-block
+                        h2.question-block__question 
+                            span.question-block__count 1
+                            | Как уменьшалась эрекция?
+                        a.question-block__answer(href="#") Постепенно
+                        a.question-block__answer(href="#") Внезапно
+            .wrap
+                .product-info
+                        .product-info__text
+                            h1.product-info__heading.heading Panto<span class="highlite">MAX</span> – максимальное удовольствие в сексе
+                            p.product-info__desc <span>Пантовые орешки</span> – экопродукт, в состав которого входят натуральные компоненты. Препарат абсолютно совместим с клеточными 
+                                | жидкостями, быстро проникает в кровь и начинает действовать уже через 30 минут. Биогенный комплекс орешек действует на половые и репродуктивные функции 
+                                | мужского организма, эндокринные функции, гормональный статус. Также Название оказывает многоплановое действие на функции 
+                                | и состояние мозга, сердечно-сосудистой, пищеварительной, нервной, иммунной систем.
+            .pros
+                .wrap
+                    h1.pros__heading.heading Преимущества <span class="no-bold">пантовых орешек</span> Panto<span class="highlite">MAX</span>
+                    .pros-blocks
+                        .pros-blocks__single
+                            img.pros-blocks__img(src="img/pro1.png")
+                            p.pros-blocks__desc 
+                                span Дарит яркие<br> оргазмы
+                        .pros-blocks__single
+                            img.pros-blocks__img(src="img/pro2.png")
+                            p.pros-blocks__desc 
+                                span Нормализует гормональный фон
+                        .pros-blocks__single
+                            img.pros-blocks__img(src="img/pro3.png")
+                            p.pros-blocks__desc 
+                                span Избавляет от эректильной дисфункции
+                        .pros-blocks__single
+                            img.pros-blocks__img(src="img/pro4.png")
+                            p.pros-blocks__desc 
+                                span Улучшает кровообращение в организме
+                        .pros-blocks__single
+                            img.pros-blocks__img(src="img/pro5.png")
+                            p.pros-blocks__desc 
+                                span Повышает тонус и жизненные силы
+                        .pros-blocks__single
+                            img.pros-blocks__img(src="img/pro6.png")
+                            p.pros-blocks__desc 
+                                span Регулирует либидо и желание
+            .wrap
+                .doctor
+                    .doctor__text 
+                        h1.doctor__heading.heading Мнение <span class="highlite">врача</span>
+                        p.doctor__desc 50% мужчин до 35 лет имеют проблемы с эрекцией. Поэтому при первых же признаках необходимо брать быка за рога и решать проблему. 
+                        p.doctor__desc Я своим пациентам советую пантовые орешки Пантомакс, это натуральный препарат, который отлично влияет не только на потенцию, но и на весь организм. 
+                        p.doctor__desc При приеме Пантомакс у мужчины нормализуется работа сосудов и повышается потенция. Одним из действий препарата также является улучшение
+                            | психоэмоциональной составляющей сексуальной жизни. Препарат поможет поддержать эрекцию во время всего полового акта. При этом эффект пантовых орешков не
+                            | зависит от времени их приема.
+                        p.doctor__author Ильнур Мухазин, врач-андролог, к.м.н.
+                            img.doctor__signature(src="img/signature.png" alt="Подпись доктора") 
+                            
+        include base/scripts.pug

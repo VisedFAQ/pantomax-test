@@ -1,0 +1,24 @@
+.doctor {
+    background: #fff url(../img/doc.png) top right no-repeat;
+    min-height: 445px;
+    color: #000;
+    @include radius(10px);
+    .doctor__text {
+        padding: 40px 350px 0 40px;
+        .doctor__heading {
+            text-align: left;
+        }
+        .doctor__desc {
+            font-size: 17px;
+            padding: 15px 0;
+        }
+        .doctor__author {
+            font-style: italic;
+            font-weight: bolder;
+            .doctor__signature {
+                vertical-align: middle;
+                padding-left: 30px;
+            }
+        }
+    }
+}
